@@ -1,8 +1,9 @@
 #include "shell.h"
 /*
- * Show my shell prompt function
+ * show_shell_prompt: function
  */
 
-void show_shell_prompt(void) {
-    custom_output("my_shell$ ");
+void show_shell_prompt(void)
+{
+	custom_output("my_shell$ ");
 }
